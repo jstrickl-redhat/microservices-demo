@@ -71,7 +71,7 @@ public class AdServiceClient {
 
   /** Get Ads from Server. */
   public void getAds(String contextKey) {
-    logger.info("Get Ads with context " + contextKey + " ...");
+    logger.info("Get Ads with context from V1" + contextKey + " ...");
     AdRequest request = AdRequest.newBuilder().addContextKeys(contextKey).build();
     AdResponse response;
 
